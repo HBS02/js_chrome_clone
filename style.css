@@ -1,3 +1,16 @@
-body {
-  font-family: sans-serif;
+@media screen and (max-width: 600px) {
+  .first {
+    background-color: blue;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .second {
+    background-color: violet;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .third {
+    background-color: yellow;
+  }
 }
