@@ -1,16 +1,24 @@
-@media screen and (max-width: 600px) {
-  .first {
-    background-color: blue;
-  }
+body {
+  font-family: sans-serif;
 }
 
-@media screen and (max-width: 1000px) {
-  .second {
-    background-color: violet;
-  }
+.bigScreen {
+  background-color: #f1c40f;
 }
-@media screen and (max-width: 1500px) {
-  .third {
-    background-color: yellow;
-  }
+
+.mediumScreen {
+  background-color: #9b59b6;
+}
+
+.smallScreen {
+  background-color: #3498db;
+}
+
+.form,
+.grettings {
+  display: none;
+}
+
+.showing {
+  display: block;
 }
