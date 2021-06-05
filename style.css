@@ -1,5 +1,5 @@
 body {
-  font-family: sans-serif;
+  background-color: #ecf0f1;
 }
 
 .bigScreen {
@@ -15,7 +15,7 @@ body {
 }
 
 .form,
-.grettings {
+.greetings {
   display: none;
 }
 
