@@ -4,7 +4,6 @@ const toDoForm = document.querySelector(".js-toDoForm"),
 
 const TODOS_LS = "toDos";
 let toDos = [];
-let idNumbers = 1;
 
 function deleteToDo(event) {
   const btn = event.target;
@@ -73,12 +72,13 @@ function loadToDos() {
     parsedToDos.forEach(function (toDo) {
       paintToDo(toDo.text);
     });
+  } else if (loadedTodos === null) {
+    toDoForm.addEventListener("submit", handleSubmit);
   }
 }
 
 function init() {
   loadToDos();
-  toDoForm.addEventListener("submit", handleSubmit);
 }
 
 init();
